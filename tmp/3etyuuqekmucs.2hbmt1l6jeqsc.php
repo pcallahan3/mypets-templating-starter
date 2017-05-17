@@ -48,6 +48,17 @@
                     </li>
                 <?php endforeach; ?>
                
+               <?php if ($preferredCustomer): ?>
+                    <strong>thank you for being a preferred a customer</strong><br>
+                <?php endif; ?>
+                
+               <?php if ($lastLogin > strtotime('-1 month')): ?>
+                    welcome back 
+                    <?php else: ?>Its been a while
+                <?php endif; ?>
+                 
+                 
+                 
               
              
     </body>

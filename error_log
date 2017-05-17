@@ -106,3 +106,9 @@
 [16-May-2017 21:21:38 America/Chicago] [IT328/mypets-templating-starter/tmp/3etyuuqekmucs.2hbmt1l6jeqsc.php:22] 
 [16-May-2017 21:31:16 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/pcallahan/public_html/IT328/mypets-templating-starter/index.php on line 21
 [16-May-2017 21:31:33 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/pcallahan/public_html/IT328/mypets-templating-starter/index.php on line 21
+[16-May-2017 22:12:32 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/pcallahan/public_html/IT328/mypets-templating-starter/tmp/3etyuuqekmucs.2hbmt1l6jeqsc.php on line 59
+[16-May-2017 22:12:32 America/Chicago] Fatal error: syntax error, unexpected 'else' (T_ELSE)
+[16-May-2017 22:12:32 America/Chicago] [IT328/mypets-templating-starter/tmp/3etyuuqekmucs.2hbmt1l6jeqsc.php:59] 
+[16-May-2017 22:12:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/pcallahan/public_html/IT328/mypets-templating-starter/tmp/3etyuuqekmucs.2hbmt1l6jeqsc.php on line 57
+[16-May-2017 22:12:55 America/Chicago] Fatal error: syntax error, unexpected 'else' (T_ELSE)
+[16-May-2017 22:12:55 America/Chicago] [IT328/mypets-templating-starter/tmp/3etyuuqekmucs.2hbmt1l6jeqsc.php:57] 

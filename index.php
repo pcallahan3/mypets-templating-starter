@@ -23,6 +23,9 @@
                                  'vanilla' => 'Vanilla Custard',
                                   'strawberry' => 'Starberry Cake'));
         
+        $f3->set('preferredCustomer', true);
+        $f3->set('lastLogin', strtotime('-1 week'));
+        
        //load a template 
        echo Template::instance()->render('pages/info.html'); 
     }); 

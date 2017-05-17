@@ -48,6 +48,17 @@
                     </li>
                 </repeat>
                
+               <check if="{{ @preferredCustomer }}">
+                    <strong>thank you for being a preferred a customer</strong><br>
+                </check>
+                
+               <check if="{{ @lastLogin > strtotime('-1 month') }}">
+                    <true>welcome back </true>
+                    <false>Its been a while</false>
+                </check>
+                 
+                 
+                 
               
              
     </body>
