@@ -30,6 +30,12 @@
         $pet = new Pet('Fido', 'Pink');
         $f3->set('mypet', $pet);
         
+        $pet = new Pet('Herientta', 'purple');
+        $f3->set('mypet1', $pet);
+        
+        
+        
+        
        //load a template 
        echo Template::instance()->render('pages/info.html'); 
     }); 

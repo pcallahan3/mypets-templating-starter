@@ -61,6 +61,11 @@
                  <p><?= $mypet->getName() ?></p>
                  <p><?= $mypet->getColor() ?></p>
                  
+                  <?php if ($mypet1->getColor() == $color): ?>
+                    <img src="https://www.google.com/search?q=google+dog&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjM7aaS_vXTAhVC5GMKHY07ABcQ_AUICygC&biw=1480&bih=688#imgrc=yjIeCqQpoJPRgM:" alt="Mountain View" style="width:304px;height:228px;">
+                    <?php else: ?>Been a while 
+                <?php endif; ?>
+                 
                  
               
              

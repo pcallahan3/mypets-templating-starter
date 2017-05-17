@@ -112,3 +112,9 @@
 [16-May-2017 22:12:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/pcallahan/public_html/IT328/mypets-templating-starter/tmp/3etyuuqekmucs.2hbmt1l6jeqsc.php on line 57
 [16-May-2017 22:12:55 America/Chicago] Fatal error: syntax error, unexpected 'else' (T_ELSE)
 [16-May-2017 22:12:55 America/Chicago] [IT328/mypets-templating-starter/tmp/3etyuuqekmucs.2hbmt1l6jeqsc.php:57] 
+[16-May-2017 22:24:47 America/Chicago] HTTP 404 (GET /logo.jpg)
+[16-May-2017 22:24:47 America/Chicago] [IT328/mypets-templating-starter/index.php:44] Base->run()
+[16-May-2017 22:26:09 America/Chicago] HTTP 404 (GET /pictures/logo.jpg)
+[16-May-2017 22:26:09 America/Chicago] [IT328/mypets-templating-starter/index.php:44] Base->run()
+[16-May-2017 22:28:18 America/Chicago] HTTP 404 (GET /pictures/logo.jpg)
+[16-May-2017 22:28:18 America/Chicago] [IT328/mypets-templating-starter/index.php:44] Base->run()
