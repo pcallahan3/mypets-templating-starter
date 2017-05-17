@@ -26,6 +26,10 @@
         $f3->set('preferredCustomer', true);
         $f3->set('lastLogin', strtotime('-1 week'));
         
+        
+        $pet = new Pet('Fido', 'Pink');
+        $f3->set('mypet', $pet);
+        
        //load a template 
        echo Template::instance()->render('pages/info.html'); 
     }); 
