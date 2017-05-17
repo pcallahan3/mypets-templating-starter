@@ -1,9 +1,9 @@
 {
-    "name": "tina/mypets-templating",
+    "name": "patrick/mypets-templating",
     "authors": [
         {
-            "name": "Tina Ostrander",
-            "email": "tostrander@greenriver.edu"
+            "name": "Patrick Callahan",
+            "email": "pcallahan3@mail.greenriver.edu"
         }
     ],
     "require": {

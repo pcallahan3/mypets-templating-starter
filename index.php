@@ -7,12 +7,25 @@
     //Create an instance of the Base class
     $f3 = Base::instance();
     
-    //Default route
-    $f3->route('GET /', function($f3) {
+    
+    $f3->route('GET /', function($f3) { 
+       //save variables 
+       $f3->set('username', 'jshmo'); 
+       $f3->set('password', sha1('Password01')); 
+       $f3->set('title', 'Working with Templates');
+       $f3->set('temp', 68);
+       $f3->set('color', 'purple');
+       $f3->set('radius', 10);
+       $f3->set('bookmarks' , array('http://cnn.com', 'http://espn.com', 'http://pear.com'));
+       $f3->set('address', array('primary' => '100 Apple ln Seattlem, Wa',
+                                 'secondary' => '2510 100th Court Tax, Wa 9000'));
+        $f3->set('desserts', array('chocolate' => 'choclate mouse',
+                                 'vanilla' => 'Vanilla Custard',
+                                  'strawberry' => 'Starberry Cake'));
         
-        echo "Hello!";
-        
-    });
+       //load a template 
+       echo Template::instance()->render('pages/info.html'); 
+    }); 
 
     //Run fat free
     $f3->run();
